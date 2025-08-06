@@ -1,14 +1,107 @@
-      <!DOCTYPE html>
-        <html>
-        <head>
-            <title>My First Website</title>
-            <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-            <h1>Welcome to my website!</h1>
-            <p>NFC tag data </p>
-	    <p style="color: blue; font-size: 48px;">If your child do not remember your phone number<br>in case of emergency this NFC tag can initiate a call to your phone</p>
-	    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information & Instructions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Information</h1>
+        </header>
 
-        </body>
-        </html>
+        <main>
+            <!-- Personal Information Section -->
+            <section class="info-section">
+                <h2>Personal Details</h2>
+                <div class="info-card">
+                    <div class="info-item">
+                        <span class="label">Full Name:</span>
+                        <span class="value">Jason K</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Address:</span>
+                        <span class="value">4 Marion Court, Keysborough, VIC 3173</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Contact Number:</span>
+                        <span class="value">(04) 377-42421</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product Instructions Section -->
+            <section class="info-section">
+                <h2>Product Instructions</h2>
+                <div class="instructions-card">
+                    <h3>How to Use Your Product</h3>
+                    
+                    <div class="instruction-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Initial Setup</h4>
+                            <p>Download the NFC tool app from the App Store or Google Play Store. Install the app and follow... </p>
+                        </div>
+                    </div>
+
+                    <div class="instruction-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Configure the NFC tag</h4>
+                            <p>Click on the WRITE botton. Now click on ADD A RECORD. Locate the PHONE NUMBER option and click on it. Now enter your phone number and clik OK. </p>
+                        </div>
+                    </div>
+
+                    <div class="instruction-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Write the NFC tag</h4>
+                            <p>Now click on WRITE/123Bytes. The prompt will ask you to place the NFC tag on the back of the phone. Wait for confirmation. </p>
+                        </div>
+                    </div>
+
+                    <div class="instruction-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Testing</h4>
+                            <p>Test function of the NFC tag to ensure everything is working properly by placing the phone above the NFC tag, it should now show your phone number.</p>
+                        </div>
+                    </div>
+
+                    <div class="important-note">
+                        <h4>⚠️ Important Notes:</h4>
+                        <ul>
+                            <li>Always read the safety instructions before use</li>
+                            <li>Keep the device away from water and extreme temperatures</li>
+                            <li>Contact support if you experience any technical difficulties</li>
+                            <li>Regular maintenance is recommended for optimal performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="info-section">
+                <h2>Get in Touch</h2>
+                <div class="contact-card">
+                    <p>For additional support or questions about your product, please don't hesitate to reach out:</p>
+                    <div class="contact-buttons">
+                        <a href="tel:+15551234567" class="contact-btn phone-btn">
+                            📞 Call Now
+                        </a>
+                        <a href="mailto:contact@example.com" class="contact-btn email-btn">
+                            ✉️ Send Email
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Contact Information. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html> 
